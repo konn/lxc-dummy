@@ -1,0 +1,33 @@
+name:                lxc-dummy
+version:             0.1.0.0
+synopsis:            Dummy skeleton for lxc
+description:         Please see README.md
+homepage:            http://github.com/konn/lxc-dummy
+license:             BSD3
+license-file:        LICENSE
+author:              Hiromi ISHII
+maintainer:          konn.jinro_at_gmail.com
+-- copyright:           
+category:            Web
+build-type:          Simple
+-- extra-source-files:  
+cabal-version:       >=1.10
+
+library
+  hs-source-dirs:      src
+  exposed-modules:     System.LXC
+                     , System.LXC.AttachOptions
+                     , System.LXC.Container
+                     , System.LXC.Internal.AttachOptions
+                     , System.LXC.Internal.Container
+                     , System.LXC.Internal.Utils
+  other-modules:       System.LXC.Internal.Nothingness
+  build-depends:       base >= 4 && < 5
+                     , mtl
+                     , transformers >= 0.2
+                     , template-haskell
+  default-language:    Haskell2010
+
+source-repository head
+  type:     git
+  location: https://github.com/konn/lxc-dummy
