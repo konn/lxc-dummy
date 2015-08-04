@@ -1,5 +1,5 @@
 name:                lxc-dummy
-version:             0.1.0.0
+version:             0.3.1.1
 synopsis:            Dummy skeleton for lxc
 description:         Please see README.md
 homepage:            http://github.com/konn/lxc-dummy
